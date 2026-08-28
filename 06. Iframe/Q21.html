@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Named Iframe with USB Permission</h2>
+
+    <!-- Button-like Link -->
+    <a href="https://example.com" target="myDeviceFrame">
+        <button>Open Device Page</button>
+    </a>
+
+    <br><br>
+
+    <!-- Named Iframe with USB Permission -->
+    <iframe
+        name="myDeviceFrame"
+        title="USB Device Content Frame"
+        allow="usb"
+        width="600"
+        height="300">
+    </iframe>
+</body>
+</html>
