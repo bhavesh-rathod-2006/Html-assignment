@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits Category Select Menu</title>
+</head>
+<body>
+
+    <h2>Select a Fruit</h2>
+
+    <form action="/submit.php" method="post">
+
+        <label for="fruits">Choose a Fruit:</label>
+
+        <select name="fruits" id="fruits">
+
+            <optgroup label="Citrus Fruits">
+                <option value="orange">Orange</option>
+                <option value="lemon">Lemon</option>
+                <option value="sweet-lime">Sweet Lime</option>
+            </optgroup>
+
+            <optgroup label="Tropical Fruits">
+                <option value="mango">Mango</option>
+                <option value="banana">Banana</option>
+                <option value="pineapple">Pineapple</option>
+            </optgroup>
+
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
