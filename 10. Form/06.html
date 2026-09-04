@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plain Text Encoding Form</title>
+</head>
+<body>
+
+    <h2>Plain Text Form</h2>
+
+    <form action="/submit.php"
+          method="post"
+          enctype="text/plain">
+
+        <!-- Text Input 1 -->
+        <label for="fullname">Full Name:</label>
+        <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Enter your full name"
+            required
+        >
+
+        <br><br>
+
+        <!-- Text Input 2 -->
+        <label for="city">City:</label>
+        <input
+            type="text"
+            id="city"
+            name="city"
+            placeholder="Enter your city"
+            required
+        >
+
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
