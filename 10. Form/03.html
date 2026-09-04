@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Without HTML5 Validation</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form action="/submit.php" method="post" novalidate>
+
+        <!-- Required Text Field -->
+        <label for="name">Full Name:</label>
+        <input
+            type="text"
+            id="name"
+            name="fullname"
+            required
+        >
+
+        <br><br>
+
+        <!-- Required Email Field -->
+        <label for="email">Email Address:</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            required
+        >
+
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
