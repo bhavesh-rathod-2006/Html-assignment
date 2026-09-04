@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>formmethod Example</title>
+</head>
+<body>
+
+<form action="/search" method="post">
+
+    <label for="keyword">Keyword:</label><br><br>
+    <input type="text" id="keyword" name="keyword"><br><br>
+
+    <input type="submit" value="Submit with POST">
+
+    <input type="submit"
+           value="Submit with GET"
+           formmethod="get">
+
+</form>
+
+</body>
+</html>
