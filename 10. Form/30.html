@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Outside Form</title>
+</head>
+<body>
+
+<form id="studentForm" action="/submit" method="post">
+    <label for="name">Student Name:</label><br><br>
+
+    <input type="text"
+           id="name"
+           name="name"
+           placeholder="Enter your name">
+
+    <br><br>
+    <input type="submit" value="Submit Form">
+</form>
+
+<br>
+
+<label for="city">City (Outside the Form):</label><br><br>
+
+<input type="text"
+       id="city"
+       name="city"
+       form="studentForm"
+       placeholder="Enter your city">
+
+</body>
+</html>
