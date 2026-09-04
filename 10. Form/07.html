@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Name and New Tab</title>
+</head>
+<body>
+
+    <h2>User Registration Form</h2>
+
+    <form action="/submit.php"
+          method="post"
+          name="userForm"
+          target="_blank">
+
+        <!-- Text Input -->
+        <label for="username">User Name:</label>
+        <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter your name"
+            required
+        >
+
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
