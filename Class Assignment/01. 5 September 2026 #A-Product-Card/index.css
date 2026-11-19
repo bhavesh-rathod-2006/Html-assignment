@@ -1,0 +1,45 @@
+.advertisement {
+    border: 1px solid gray;
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+img {
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: block;
+    margin: auto;
+}
+
+button {
+    border: 1px solid gray;
+    border-radius: 50px;
+    margin-left: 10px;
+    font-size: larger;
+    color: rgb(61, 61, 61);
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+p {
+    font-size: x-large;
+    color: rgb(61, 61, 61);
+}
+
+#readmore {
+    border: 0px;
+    width: 130px;
+    height: 40px;
+    color: blue;
+    font-weight: bolder;
+    border-radius:20px;
+    background-color: rgba(0, 0, 255, 0.242);
+    display: block;
+    margin: auto;
+}
